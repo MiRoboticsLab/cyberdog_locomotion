@@ -1,0 +1,4 @@
+struct motor_ctrl_state_lcmt {
+    int16_t err_flag;
+    float ctrl_topic_interval;
+}

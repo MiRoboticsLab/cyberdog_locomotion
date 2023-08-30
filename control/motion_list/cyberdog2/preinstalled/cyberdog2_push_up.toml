@@ -1,0 +1,440 @@
+
+[[step]]
+type         = "recoverystand"
+duration     = 500
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, -0.0, -0.0, -0.2, 0.0, -0.12]              # the sign of pitch 
+landing_pos_des = [0.0, -0.0, 0.0,  0.0, 0.0, 0.0,  -0.26, 0.0, 0.0,  -0.26, -0.0, 0.0]
+step_height     = [0.0, 0.0, 0.05, 0.05]
+weight          = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+use_mpc_traj    = 0
+mu              = 0.30
+landing_gain    = 1.0 
+gait_id         = 100
+duration        = 1200
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.1, 0.0, 0.01, 0.0, -0.005]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 200
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.1, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.02]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 200
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.019]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.044]               # to bo modified -10
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.030]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.017]               # -1
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]               
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+##### Vel-varying fall down
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.007]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.018]                # +1
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.029]                # +3
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.040]                # to be modified +5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.018]               # +2
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.007]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.019]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.044]               # to bo modified -10
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.030]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.017]               # -1
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]               
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+##### Vel-varying fall down
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.007]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.018]                # +1
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.029]                # +3
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.040]                # to be modified +5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.018]               # +2
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.007]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.019]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.044]               # to bo modified -10
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.030]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.017]               # -1
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]               
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+##### Vel-varying fall down
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.007]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.018]                # +1
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.029]                # +3
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.040]                # to be modified +5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.018]               # +2
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.007]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.019]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.044]               # to bo modified -10
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.030]               # -5
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.017]               # -1
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+######### slow down stage 1 start at about -0.016 ##########
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.010]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.006]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.004]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+########### slow down stage 2 ############
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.003]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.002]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.001]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+######## Recover ########
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.2, 0.0, 0.0, 0.0, -0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 300
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 30
+
+[[step]]
+type         = "recoverystand"
+duration     = 30

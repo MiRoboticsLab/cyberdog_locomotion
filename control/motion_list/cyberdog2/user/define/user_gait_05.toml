@@ -1,0 +1,60 @@
+# Diagonal FR RL
+
+# 1
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 7
+
+# 2
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 7
+
+# 3
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 7
+
+# 4
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 7
+
+# 5
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 7
+
+# 6
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 7
+
+# End
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 9

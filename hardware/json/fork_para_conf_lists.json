@@ -1,0 +1,3 @@
+{
+  "600001": {"fork_config":{"name": "cyberdog_control",             "object_path": "/robot-software/build/",  "log_path": "/mnt/UDISK/robot-log", "para_values": ["a", "r", "f"] }}
+}

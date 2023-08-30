@@ -1,0 +1,24 @@
+__collection-name__: speed-parameters
+
+speed_offset_trot_slow: [0.0, 0.0, 0.0]
+speed_offset_trot_medium: [0.0, 0.0, 0.0]
+speed_offset_trot_fast: [0.0, 0.0, 0.0]
+speed_offset_trot_follow: [0.0, 0.0, 0.0]
+
+speed_offset_trot_24_16: [0.0, 0.0, 0.0]
+speed_offset_trot_10_5: [0.0, 0.0, 0.0]
+speed_offset_trot_10_4: [0.0, 0.0, 0.0]
+speed_offset_trot_8_3: [0.0, 0.0, 0.0]
+
+speed_offset_ballet: [0.0, 0.0, 0.0]
+speed_offset_pronk: [0.0, 0.0, 0.0]
+speed_offset_bound: [0.0, 0.0, 0.0]
+speed_offset_walk: [0.0, 0.0, 0.0]
+
+se_ori_cali_offset: [0.0, 0.0, 0.0]
+se_ori_cali_gain: [0.0, 0.0, 0.0]
+
+speed_offset_gait1: [0.0, 0.0, 0.0]
+speed_offset_gait2: [0.0, 0.0, 0.0]
+speed_offset_gait3: [0.0, 0.0, 0.0]
+speed_offset_gait4: [0.0, 0.0, 0.0]

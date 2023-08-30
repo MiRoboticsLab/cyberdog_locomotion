@@ -1,0 +1,146 @@
+#	option1:
+#		locomotion
+#		xdot,ydot,yawdot
+#		omni
+#		gait
+#		duration
+#
+#	option2:
+#		pose
+#		contact state
+#		pose_body_cmd
+#		pose_foot_cmd
+#		pose_ctrl_point
+#		duration
+#	option3:
+#		jump
+#		jump_foot_support
+#		jump_x_acc_cmd
+#		jump_w_acc_cmd	
+#		duration
+#	option4:
+#		transition
+#		height
+#		duration
+
+# position ctrl: sit down and swing legs
+
+
+[[step]]
+type         = "transition"
+height       = 0.30
+duration     = 200
+
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.45, 0.0, -0.05, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 250
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.2, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [-0.0, 0.0, -0.4, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 200
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.2, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.1, 0.0, 0.0, -0.05, 0.03, 0.0]
+foot_pose    = [0.0, 0.0, 0.05]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 300
+
+
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.3, 0.0, 0.26]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 200
+
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, -0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+
+[[step]]
+type         = "swingleg"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, -0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 1000
+
+
+
+[[step]]
+type         = "pose"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.3, -0.0, -0.25]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 300
+
+
+
+[[step]]
+type         = "transition"
+height       = 0.30
+duration     = 200
+
+
+[[step]]
+type         = "transition"
+height       = 0.30
+duration     = 500
+
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 3
+duration     = 720
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 50
+

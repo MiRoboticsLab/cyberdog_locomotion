@@ -1,0 +1,8 @@
+struct localization_lcmt {
+  float xyz[3];
+  float vxyz[3];
+  float rpy[3];
+  float omegaBody[3];
+  float vBody[3];
+  int64_t timestamp;
+}

@@ -1,0 +1,5 @@
+__collection-name__: joints-calibrate-parameters
+
+abad_calibrate   : [0., 0., 0., 0.]
+hip_calibrate    : [0., 0., 0., 0.]
+knee_calibrate   : [0., 0., 0., 0.]

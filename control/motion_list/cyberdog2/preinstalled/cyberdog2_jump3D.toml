@@ -1,0 +1,59 @@
+# Beginning of z jump3D #
+
+[[step]]
+type        = "jump3D"
+gait_id     = 6
+duration    = 760
+
+# End of z jump3D #
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000
+
+# Beginning of x jump3D #
+
+[[step]]
+type        = "jump3D"
+gait_id     = 4
+duration    = 790
+
+# End of x jump3D #
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000
+
+# Beginning of yaw jump3D #
+
+[[step]]
+type        = "jump3D"
+gait_id     = 0
+duration    = 790
+
+# End of yaw jump3D #
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000
+
+# Beginning of y jump3D #
+
+[[step]]
+type        = "jump3D"
+gait_id     = 2
+duration    = 920
+
+# End of y jump3D #
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 5000

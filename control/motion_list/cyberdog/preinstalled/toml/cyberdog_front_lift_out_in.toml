@@ -1,0 +1,29 @@
+# Front lift
+
+# Beginning of front lift #
+# Stand
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.05, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 1000
+
+
+# Front lift
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 61
+duration     = 4320
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 6000

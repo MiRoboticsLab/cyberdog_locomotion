@@ -1,0 +1,193 @@
+# Walk wave
+
+# 1
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 2
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 3
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 4
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 5
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 6
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 7
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 8
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 9
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 10
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+# 11
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 9
+
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 9
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 9
+
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 5
+

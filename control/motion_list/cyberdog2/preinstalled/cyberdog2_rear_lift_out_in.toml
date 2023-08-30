@@ -1,0 +1,45 @@
+# Rear lift in out
+
+# Beginning of rear lift #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.075, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 1000
+
+# Rear lift
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 65
+duration     = 2880
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.030, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 800
+
+# End of rear lift #
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 500
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 500

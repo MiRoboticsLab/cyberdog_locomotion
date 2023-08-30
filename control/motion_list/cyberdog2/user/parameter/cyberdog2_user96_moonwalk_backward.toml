@@ -1,0 +1,239 @@
+# Moonwalk 
+
+# Beginning of moonwalk #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 500
+
+# 1
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  -0.065, -0.00, 0.0,  -0.065, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.065, -0.00, 0.0,  0.065, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.065, 0.00, 0.0,  0.065, -0.00, 0.0,  0.065, 0.00, 0.0,  -0.065, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+# 2
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  -0.065, -0.00, 0.0,  -0.065, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.065, -0.00, 0.0,  0.065, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.065, 0.00, 0.0,  0.065, -0.00, 0.0,  0.065, 0.00, 0.0,  -0.065, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+# 3
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  -0.065, -0.00, 0.0,  -0.065, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.065, -0.00, 0.0,  0.065, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.065, 0.00, 0.0,  0.065, -0.00, 0.0,  0.065, 0.00, 0.0,  -0.065, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+# 4
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.065, 0.00, 0.0,  -0.065, -0.00, 0.0,  -0.065, 0.00, 0.0,  0.065, 0.00, 0.0]
+step_height     = [0.09, 0.01, 0.01, 0.09]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.00, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  -0.00, 0.00, 0.0]
+step_height     = [0.01, 0.09, 0.09, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 96
+duration        = 240
+
+# End of moonwalk #
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 1000
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000

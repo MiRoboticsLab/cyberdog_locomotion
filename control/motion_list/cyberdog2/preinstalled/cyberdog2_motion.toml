@@ -1,0 +1,1322 @@
+# 1.5 + 1.776一个八拍
+# 0 空1.5s
+# 1 body stretch 8拍
+# 2 sit-down 4拍  back flip 4拍
+# 3 back flip 4拍 front jump3D 4拍
+# 4 hip swing 8拍
+# 5 pitch down left 8拍
+# 6 front lift 8拍
+
+
+# Beginning of body stretch #
+
+[[step]]
+type         = "transition"
+height       = 0.25
+duration     = 1500
+
+######
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.3, 0.0, 0.06, -0.0, -0.05]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 888
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, -0.0, 0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+######
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.6, 0.0, -0.10, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 888
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.25, 0.0, -0.0, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 222
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [-0.5, 0.0, -0.0, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.25, 0.0, -0.0, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 222
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, -0.0, 0.04, -0.0, 0.05]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+# End of body stretch #
+
+
+# Beginning of sit-down #
+[[step]]
+type         = "transition"
+height       = 0.225
+duration     = 222
+
+###### sit down
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.45, 0.0, -0.05, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+###### shake body
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.2, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 222
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [-0.0, 0.0, -0.4, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.2, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 222
+
+###### hold on a moment
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+
+# up and down #
+[[step]]
+type         = "transition"
+height       = 0.28
+duration     = 444
+
+[[step]]
+type         = "transition"
+height       = 0.15
+duration     = 222
+
+[[step]]
+type         = "transition"
+height       = 0.15
+duration     = 222
+
+[[step]]
+type         = "transition"
+height       = 0.28
+duration     = 222
+
+[[step]]
+type         = "transition"
+height       = 0.28
+duration     = 222
+
+[[step]]
+type         = "transition"
+height       = 0.15
+duration     = 222
+
+[[step]]
+type         = "transition"
+height       = 0.15
+duration     = 222
+
+[[step]]
+type         = "transition"
+height       = 0.20
+duration     = 444
+
+# [[step]]
+# type         = "flips"
+# gait_id      = 1
+# duration     = 2664
+
+[[step]]
+type         = "transition"
+height       = 0.25
+duration     = 444
+
+# Beginning of front jump3D #
+
+[[step]]
+type        = "jump3D"
+gait_id     = 4
+duration    = 1776
+
+# End of front jump3D #
+
+
+
+# Beginning of hip swing #
+[[step]]
+type         = "transition"
+height       = 0.225
+duration     = 134
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.15, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 208
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.03, -0.003, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0285, -0.009, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02625, -0.01425, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02325, -0.0195, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.01875, -0.02325, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0135, -0.027, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.00825, -0.0285, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.00225, -0.03, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.00375, -0.03, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.00975, -0.0285, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.015, -0.0255, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02025, -0.0225, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.024, -0.018, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.027, -0.01275, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02925, -0.0075, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.03, -0.0015, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02925, 0.0045, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02775, 0.0105, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.0255, 0.01575, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02175, 0.02025, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.01725, 0.02475, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.012, 0.02775, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.006, 0.02925, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.03, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.00525, 0.02925, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.01125, 0.02775, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0165, 0.02475, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.021, 0.021, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02475, 0.0165, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02775, 0.01125, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02925, 0.00525, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.01275, 0.00075, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 208
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 100
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.03, -0.003, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.0285, -0.009, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02625, -0.01425, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02325, -0.0195, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.01875, -0.02325, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.0135, -0.027, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.00825, -0.0285, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.00225, -0.03, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.00375, -0.03, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.00975, -0.0285, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.015, -0.0255, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02025, -0.0225, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.024, -0.018, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.027, -0.01275, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02925, -0.0075, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.03, -0.0015, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02925, 0.0045, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02775, 0.0105, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0255, 0.01575, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.02175, 0.02025, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.01725, 0.02475, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.012, 0.02775, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.006, 0.02925, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.03, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.00525, 0.02925, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.01125, 0.02775, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.0165, 0.02475, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.021, 0.021, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02475, 0.0165, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02775, 0.01125, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.02925, 0.00525, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.012, 0.00075, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 40
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, -0.15, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [-0.15, 0.0, 0.0]
+duration     = 208
+
+[[step]]
+type         = "transition"
+height       = 0.225
+duration     = 134
+
+# End of hip swing #
+
+
+
+# Beginning of pitch down left #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.08, -0.03, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 888
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 70
+duration     = 3780 # 3552
+# 4320 1620
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.08, 0.03, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 1044
+
+# End of pitch down left #
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000
+
+# Beginning of moonwalk #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 500
+
+# 1
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  -0.045, -0.00, 0.0,  -0.045, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.045, -0.00, 0.0,  0.045, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.045, 0.00, 0.0,  0.045, -0.00, 0.0,  0.045, 0.00, 0.0,  -0.045, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+# 2
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  -0.045, -0.00, 0.0,  -0.045, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.045, -0.00, 0.0,  0.045, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.045, 0.00, 0.0,  0.045, -0.00, 0.0,  0.045, 0.00, 0.0,  -0.045, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+# 3
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  -0.045, -0.00, 0.0,  -0.045, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.045, -0.00, 0.0,  0.045, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.045, 0.00, 0.0,  0.045, -0.00, 0.0,  0.045, 0.00, 0.0,  -0.045, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+# 4
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.045, 0.00, 0.0,  -0.045, -0.00, 0.0,  -0.045, 0.00, 0.0,  0.045, 0.00, 0.0]
+step_height     = [0.05, 0.01, 0.01, 0.05]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  0.00, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 300
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0102, -0.0001, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [-0.00, 0.00, 0.0,  0.00, -0.00, 0.0,  0.00, 0.00, 0.0,  -0.00, 0.00, 0.0]
+step_height     = [0.01, 0.05, 0.05, 0.01]
+weight          = [500.0, 10.0, 10.0, 50.0, 2500.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 90
+duration        = 240
+
+# End of moonwalk #
+
+
+[[step]]
+type         = "transition"
+height       = 0.25
+duration     = 500
+
+# Beginning of front lift #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.095, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 1098
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.0, -0.03, 0.0,  0.0, 0.03, 0.0,  0.0, 0.00, 0.0,  0.0, -0.00, 0.0]
+step_height     = [0.035, 0.035, 0.02, 0.02]
+weight          = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+use_mpc_traj    = 0
+mu              = 0.30
+landing_gain    = 1.0 
+gait_id         = 81
+duration        = 480
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.0, 0.03, 0.0,  0.0, -0.03, 0.0,  0.0, 0.00, 0.0,  0.0, -0.00, 0.0]
+step_height     = [0.035, 0.035, 0.02, 0.02]
+weight          = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+use_mpc_traj    = 0
+mu              = 0.30
+landing_gain    = 1.0 
+gait_id         = 81
+duration        = 480
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.0, -0.03, 0.0,  0.0, 0.03, 0.0,  0.0, 0.00, 0.0,  0.0, -0.00, 0.0]
+step_height     = [0.035, 0.035, 0.02, 0.02]
+weight          = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+use_mpc_traj    = 0
+mu              = 0.30
+landing_gain    = 1.0 
+gait_id         = 81
+duration        = 480
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.0, 0.03, 0.0,  0.0, -0.03, 0.0,  0.0, 0.00, 0.0,  0.0, -0.00, 0.0]
+step_height     = [0.035, 0.035, 0.02, 0.02]
+weight          = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+use_mpc_traj    = 0
+mu              = 0.30
+landing_gain    = 1.0 
+gait_id         = 81
+duration        = 480
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.0, -0.03, 0.0,  0.0, 0.03, 0.0,  0.0, 0.00, 0.0,  0.0, -0.00, 0.0]
+step_height     = [0.035, 0.035, 0.02, 0.02]
+weight          = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+use_mpc_traj    = 0
+mu              = 0.30
+landing_gain    = 1.0 
+gait_id         = 81
+duration        = 480
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.05, -0.00, 0.0,  0.05, 0.00, 0.0,  0.0, 0.00, 0.0,  0.0, -0.00, 0.0]
+step_height     = [0.035, 0.035, 0.02, 0.02]
+weight          = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+use_mpc_traj    = 0
+mu              = 0.30
+landing_gain    = 1.0 
+gait_id         = 81
+duration        = 750
+
+# Stand
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.095, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 1000
+
+# End of front lift #
+
+
+# Beginning of trot in out #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 200
+
+# Trot in out
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, -0.0, 0.0]
+omni         = 0
+gait_id      = 56
+duration     = 2970
+
+# # Stand
+
+# [[step]]
+# type         = "torctrlposture"
+# foot_support = [1.0, 1.0, 1.0, 1.0]
+# body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+# foot_pose    = [0.0, 0.0, 0.0]
+# duration     = 500
+
+# End of trot in out #
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 500
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 300
+
+
+# Beginning of trot pitch #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 200
+
+# Trot pitch
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, -0.0, 0.0]
+omni         = 0
+gait_id      = 57
+duration     = 2970
+
+# # Stand
+
+# Beginning of ballet #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 200
+
+# Transition trotting
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 69
+duration     = 600
+
+# Ballet
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, -0.025, 0.3]
+omni         = 0
+gait_id      = 68
+duration     = 6000
+
+# Transition trotting
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 69
+duration     = 600
+
+# End of ballet #
+
+
+# PRONK        = 2,
+# BOUND        = 7,
+
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.1, 0.0, 0.0]
+omni         = 0
+gait_id      = 7
+duration     = 1500
+
+# [[step]]
+# type         = "torctrlposture"
+# foot_support = [1.0, 1.0, 1.0, 1.0]
+# body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+# foot_pose    = [0.0, 0.0, 0.0]
+# duration     = 500
+
+# End of trot pitch #
+
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 500
+
+# Beginning of sit-down #
+[[step]]
+type         = "transition"
+height       = 0.225
+duration     = 222
+
+###### sit down
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.45, 0.0, -0.05, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+###### shake body
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.2, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 222
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [-0.0, 0.0, -0.4, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.2, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 222
+
+###### hold on a moment
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.08, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 444
+
+# # RecoveryStand
+
+# [[step]]
+# type         = "recoverystand"
+# duration     = 5000
+
+# # # Avoid return earlier for long list
+# [[step]]
+# type         = "transition"
+# height       = 0.235
+# duration     = 2000
+
+# [[step]]
+# type         = "transition"
+# height       = 0.235
+# duration     = 100
+
+# [[step]]
+# type         = "transition"
+# height       = 0.235
+# duration     = 100

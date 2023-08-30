@@ -1,0 +1,22 @@
+# Diagonal trot
+
+# Beginning of diagonal trot #
+# Stand
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+200
+
+# Diagonal out
+locomotion
+0, 0.01, 0
+0
+52
+4320
+
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+60000

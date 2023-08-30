@@ -1,0 +1,28 @@
+# Diagonal trot
+
+# Beginning of diagonal trot #
+# Stand
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 200
+
+# Diagonal out
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.01, 0.0]
+omni         = 0
+gait_id      = 52
+duration     = 4320
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 6000

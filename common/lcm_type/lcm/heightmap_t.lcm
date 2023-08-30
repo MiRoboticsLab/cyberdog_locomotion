@@ -1,0 +1,5 @@
+struct heightmap_t
+{
+  double map[80][80];  
+  double robot_loc[3];
+}

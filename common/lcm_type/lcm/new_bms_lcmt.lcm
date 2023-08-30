@@ -1,0 +1,19 @@
+
+struct new_bms_response_lcmt
+{
+
+    int8_t  dest_id;  // id  0---nx  1---mr813  2---r329
+    int8_t  src_id;
+    int8_t  lowpower_ack;
+    int8_t  reserve;
+}
+
+struct new_bms_request_lcmt
+{
+
+    int8_t  dest_id;
+    int8_t  src_id;
+    int8_t  lowpower_flag;// 0:normal, 1:lowpower, 2:sleep, 3:poweroff 4:test
+    int8_t  reserve;
+
+}

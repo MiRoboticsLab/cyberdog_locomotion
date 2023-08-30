@@ -1,0 +1,13 @@
+#!/bin/sh
+# Cyberdog2 will call /mnt/UDISK/robot-software/manager directly
+# This scripts will replaced old manager process at /mnt/UDISK/
+# Called by /etc/startup_script.sh when old cyberdog borad startup:
+# "
+# if [  -f "${MANAGER_TEST_PATH}" ]; then
+#     /mnt/UDISK/manager /mnt/UDISK/ >> /mnt/UDISK/manager_log/manager.log 2>&1 &
+# else
+#     /robot/manager /robot/ >> /mnt/UDISK/manager_log/manager.log 2>&1 &
+# fi
+# "
+export LD_LIBRARY_PATH=/mnt/UDISK/robot-software/build
+/mnt/UDISK/robot-software/manager /mnt/UDISK/

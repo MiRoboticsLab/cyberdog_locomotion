@@ -1,0 +1,17 @@
+*~
+*.vscode
+doxygen/
+build
+onboard-build
+*.orig
+*.patch
+
+common/lcm_type/lcm/java
+common/lcm_type/lcm/lcmtypes
+common/lcm_type/lcm/__pycache__
+common/lcm_type/lcm/file_list.txt
+common/lcm_type/lcm/*.hpp
+common/lcm_type/lcm/*.py
+common/lcm_type/lcm/*.pyc
+common/lcm_type/lcm/*.java
+common/lcm_type/lcm/*.class

@@ -1,0 +1,23 @@
+# Front lift
+
+# Beginning of front lift #
+# Stand
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, -0.050, 0, 0
+0, 0, 0
+1000
+
+
+# Front lift
+locomotion
+0, 0, 0
+0
+63
+4320
+
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+60000

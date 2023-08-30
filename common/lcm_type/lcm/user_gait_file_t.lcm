@@ -1,0 +1,6 @@
+struct file_send_lcmt {
+    string  data;
+}
+struct file_recv_lcmt {
+    int8_t  result; // 0: 成功， 1：异常
+}

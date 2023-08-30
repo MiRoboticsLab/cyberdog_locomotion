@@ -1,0 +1,15 @@
+struct robot_control_cmd_lcmt {
+    int8_t   mode;
+    int8_t   gait_id;
+    int8_t   contact;           // Whether the four feet touch the ground
+    int8_t   life_count;        // Life count, command takes effect when count incremented
+    float    vel_des[ 3 ];      // x y yaw speed  m/s
+    float    rpy_des[ 3 ];      // roll pitch yaw  rad
+    float    pos_des[ 3 ];      // x y z  m/s
+    float    acc_des[ 6 ];      // acc for jump m^2/s
+    float    ctrl_point[ 3 ];   // pose ctrl point  m
+    float    foot_pose[ 6 ];    // front/back foot pose x,y,z  m
+    float    step_height[ 2 ];  // step height when trot  m
+    int32_t  value;             // Reservation
+    int32_t  duration;          // Time of command execution
+}

@@ -1,0 +1,18 @@
+[Fix/New/Modify]: summary
+
+JIRA-ID: N/A
+
+commit message
+
+# Line 1：summary行，格式为：[提交类型]+[冒号]+[空格]+[简明该提交代码功能], 限制字符为80字符，不能换行
+# Line 2：空行
+# Line 3：JIRA-ID (没有就填N/A)
+# Line 4：空行
+# Line 5：进版原因(commit message)
+# Line 6：空行
+# Line 7: Change-Id行,git hooks会自动生成
+# Line 8：Singed-off信息
+# 需要注意的事项有：
+# (1) 用git commit -s指令来提交，以自动生成Signed-off信息;
+# (2) 提交类型只限Fix（Bug修复），New（新功能），Modify（改进代码）三种；
+# (3) commit message尽量写得详细，交代清楚问题，分析原因，避免和summary行雷同，支持中文。

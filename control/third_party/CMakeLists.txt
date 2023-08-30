@@ -1,0 +1,2 @@
+add_subdirectory(Goldfarb_Optimizer)
+add_subdirectory(qpOASES)

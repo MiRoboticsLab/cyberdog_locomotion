@@ -1,0 +1,97 @@
+# Moonwalk
+
+# Beginning of moonwalk #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 200
+
+# 1
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 58
+duration     = 540
+
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 59
+duration     = 540
+
+# 2
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 58
+duration     = 540
+
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 59
+duration     = 540
+
+# 3
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 58
+duration     = 540
+
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 59
+duration     = 540
+
+# 4
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 58
+duration     = 540
+
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.1102, -0.0001, 0.0]
+omni         = 0
+gait_id      = 59
+duration     = 540
+
+# End of moonwalk #
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 500
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 500

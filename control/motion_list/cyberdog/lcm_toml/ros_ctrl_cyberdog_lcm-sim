@@ -1,0 +1,21 @@
+# struct motion_control_request_lcmt {
+#	int8_t pattern; //kOff, kOff, kPureDamper, kRecoveryStand, kQpStand,
+#                   // 5 - 11 MOTION, LOCOMOTION-walk, LOCOMOTION-slow, LOCOMOTION-trot, LOCOMOTION-fly, LOCOMOTION-bound, LOCOMOTION-pronk, LOCOMOTION
+#	double linear[3];      // linear velocity
+#	double angular[3];     // in qp_stand: rpy; in locomotion: angular[0-1] row, pitch, angular[2] z velocity
+#	double point[3];       // reserved
+#	double quaternion[4];  // reserved
+#	double body_height;    // in qp_stand: body height; donot used in locomotion
+#	double gait_height;    // in locomotion: gait height
+#	int8_t order;          // voice command, as the pdf, project to 2 variable
+# }
+
+cmd
+3
+0,0,0
+0,0,0
+0,0,0
+0,0,0,0
+0.3
+0.1
+0

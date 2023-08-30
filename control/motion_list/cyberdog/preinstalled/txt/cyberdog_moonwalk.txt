@@ -1,0 +1,80 @@
+# Moonwalk
+
+# Beginning of moonwalk #
+# Stand
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+200
+
+# 1
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+58
+600
+
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+59
+600
+
+# 2
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+58
+600
+
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+59
+600
+
+# 3
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+58
+600
+
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+59
+600
+
+# 4
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+58
+600
+
+locomotion
+-0.1020, 0.00001, 0.0000
+0
+59
+600
+
+# Stand
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+200
+# End of moonwalk #
+
+# Stand
+transition
+0.21
+60000
+
+#torctrlposture
+#1, 1, 1, 1
+#0, 0, 0, 0, 0, 0
+#0, 0, 0
+#60000

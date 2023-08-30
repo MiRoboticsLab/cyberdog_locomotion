@@ -1,0 +1,288 @@
+# Generated on Mon Aug  5 18:20:08 2019
+__collection-name__: user-parameters
+
+# jump 20cm box
+jump_time_vector       : [1, 1.3, 1.31, 1.4]
+jump_front_hip         : [-1.5, -1.6, -1.5, -1.3]
+jump_front_knee        : [2.4, 2, 2.4, 1.6]
+jump_hind_hip          : [-1.3, -1.4, -1.6, -1.7]
+jump_hind_knee         : [2, 0.5, 2.4, 2.1]
+
+# damping the joint when use mpc only
+
+mpc_body_inertia      : [0.07641, 0.17843, 0.197579]
+mpc_body_mass      : 8.3644
+mpc_task_weight      : [1.25, 1.25, 2, 2, 2, 50, 0, 0, 0.3, 1.5, 1.5, 0.2]
+# mpc_task_weight      : [2.0, 2.0, 2.0, 20, 20, 300, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0] # for TV-MPC
+mpc_friction_coef          : 0.4
+mpc_friction_coef_bound    : 0.3
+mpc_friction_coef_follow   : 0.5
+mpc_force_max       : 150.
+mpc_com_offset  : [0.027, 0.0, 0.0]
+
+mpc_only_joint_kd            : [0.2,  0.2,  0.2]
+mpc_only_swing_cartesian_kp  : [700., 700., 700.]
+mpc_only_swing_cartesian_kd  : [14.,  14.,  14.]
+mpc_only_stance_cartesian_kp : [0.,   0.,   0.]
+mpc_only_stance_cartesian_kd : [14.,  14.,  14.]
+
+mpc_wbc_stance_cartesian_kp  : [0.,   0.,   0.]
+mpc_wbc_stance_cartesian_kd  : [4.,  4.,  4.] # [14.,  14.,  14.]
+
+mpc_velocity_filter          : 0.01
+#type of swing legs' trajectory
+mpc_use_bezier :  1
+
+use_wbc               : 1
+
+wbc_weight                : [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+wbc_weight_default        : [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+wbc_weight_walk           : [200.0, 200.0, 200.0, 200.0, 200.0, 200.0]
+wbc_weight_passive_trot   : [0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+wbc_weight_motion_default : [5.0, 5.0, 10.0, 10.0, 10.0, 10.0]
+wbc_weight_ballet         : [50.0, 50.0, 5.0, 10.0, 10.0, 10.0]
+wbc_weight_pitch_step     : [5.0, 5.0, 500.0, 10.0, 10.0, 10.0]
+wbc_weight_moonwalk       : [5.0, 5.0, 10.0, 10.0, 10.0, 10.0]
+wbc_weight_diagonal       : [50.0, 50.0, 500.0, 100.0, 100.0, 10.0] #[5.0, 5.0, 200.0, 10.0, 10.0, 10.0]
+wbc_weight_front_lift     : [5.0, 5.0, 200.0, 10.0, 10.0, 10.0]
+wbc_weight_rear_lift      : [5.0, 5.0, 200.0, 10.0, 10.0, 10.0]
+wbc_weight_walk_wave      : [20.0, 20.0, 20.0, 2.0, 2.0, 2.0]
+wbc_weight_jump           : [1000.0, 1000.0, 1000.0, 1000.0, 1000.0, 1000.0]
+wbc_weight_pace_stride    : [5.0, 5.0, 10.0, 10.0, 10.0, 200.0]
+wbc_weight_user_gait      : [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+wbc_joint_kp          : [4, 4, 4]
+wbc_joint_kd          : [1, 0.2, 0.2]
+
+wbc_body_kp           : [60, 60, 60] # [100, 100, 100]
+wbc_body_kd           : [6, 6, 12] # [10, 10, 20]
+
+wbc_foot_kp           : [500, 500, 500] # [200, 200, 200] # [300, 300, 300] # [500, 500, 500]
+wbc_foot_kd           : [60, 60, 60] # [24, 24, 24] # [36, 36, 36] # [60, 60, 60]
+
+wbc_orient_kp            : [60, 60, 60] # [100, 100, 100]
+wbc_orient_kd            : [6, 6, 6] # [10, 10, 10]
+# reference trajectory of wbc
+wbc_use_mpc_traj        : 1
+wbc_use_mpc_traj_motion : 0
+
+wbc_friction_default    : 0.4
+wbc_friction_bound      : 0.05
+wbc_friction_front_lift : 0.25
+wbc_friction_follow     : 0.5
+
+cmpc_x_drag             : 3
+cmpc_bonus_swing        : 0.05
+cmpc_bonus_swing_large  : 0.05 # 0.15
+cmpc_bonus_swing_follow : 0.3
+jcqp_alpha              : 1.5
+jcqp_max_iter           : 10000
+jcqp_rho                : 1e-07
+jcqp_sigma              : 1e-08
+jcqp_terminate          : 0.1
+use_jcqp                : 0
+
+stance_legs       : 4
+
+# Gait parameters
+gait_type             : 4
+gait_period_time      : 0.5
+gait_switching_phase  : 0.5
+gait_override         : 4
+gait_max_leg_angle    : 15
+gait_max_stance_time  : 0.25
+gait_min_stance_time  : 0.1
+
+swing_p_gain          : [0.06, 0.05, 0.03] # [0.1, 0.09, 0.05]
+swing_p_gain_large    : [0.06, 0.05, 0.03] # [0.10, 0.05, 0.03]
+swing_p_gain_motion   : [0.06, 0.05, 0.03] #[0.15, 0.15, 0.03]
+swing_p_gain_follow   : [0.30, 0.05, 0.03]
+foot_final_height     : -0.005
+
+des_roll_pitch_height        : [0.0, 0, 0.25]
+des_roll_pitch_height_motion : [0.0, 0, 0.225]
+des_roll_pitch_height_stair  : [0.0, 0, 0.225]
+des_vel : [0.0, 0.0, 0.0]
+contact_threshold: [1.0, 1, 1]
+detect_terrain: 1
+body_size_port: 1
+
+#for FSM-> dance twolegStand and motion
+jump_initial_pos: [0.0,-0.00,0.28]
+jump_action_order: [0,0,0]
+jump_height: [-0.0,-0.28,0.1]
+jump_vel: [0,0,1.6]
+jump_rot: [0,0.4,0]
+jump_qkp: [50, 80, 80]
+jump_qkd: [5,10,10]
+
+jump_force      : 30
+knee_angle_adj  : 3
+
+action_pause: 0.0
+
+# TODO: use BT config to remove these
+rpy_acc_max         : [10.0  , 10.0  , 10.0]   # in order rpy
+rpy_w_max           : [2.0  , 2.0   , 2.0]
+rpy_min             : [-0.47 , -0.25 , -0.65]
+rpy_max             : [0.47  , 0.3  , 0.65]
+
+enable_push_recovery_vel_trot   : [0.40, 0.27]
+enable_push_recovery_vel_stand  : [0.37, 0.29]
+enable_push_recovery_pos_stand  : [0.015, 0.018]
+enable_push_recovery_delay      : 500             # delay entering push recovery after new gait
+disable_push_recovery_vel_trot  : [0.06, 0.06]
+disable_push_recovery_vel_stand : [0.10, 0.10]
+disable_push_recovery_delay     : 250             # delay exiting push recovery
+vel_max_ratio                   : [1.20, 1.05, 1.0]
+
+x_effect_scale_pos              : -0.55 #-0.50
+x_effect_scale_neg              : -0.65 #-0.65
+y_effect_scale                  : -0.40
+yaw_effect_scale                : [-0.05, -0.1, -0.60]  # positive x_dot, negative x_dot, others
+centrifugal_thresh              : 0.30
+vel_scale_limit_type            : 0.0 # 0: priority, 1: norm
+
+vel_switch : [0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 1.0, 1.0, 1.0, 0.05]
+auto_switch_enabled : 1.0
+push_recovery_enabled : 1.0
+
+# in order [x, y, yaw]
+vel_xy_yaw_max_default      : [ 2.0  , 1.0  , 2.5]
+vel_xy_yaw_min_default      : [-2.0 , -1.0 , -2.5]
+vel_xy_yaw_max_trot_fast    : [ 1.6  , 0.55  , 2.5]
+vel_xy_yaw_min_trot_fast    : [-1.2 , -0.55 , -2.5]
+vel_xy_yaw_max_trot_medium  : [ 1.2  , 0.4  , 2.25]
+vel_xy_yaw_min_trot_medium  : [-1.2 , -0.4 , -2.25]
+vel_xy_yaw_max_trot_slow   : [ 0.60  , 0.2  , 1.30]
+vel_xy_yaw_min_trot_slow   : [-0.60 , -0.2 , -1.30]
+vel_xy_yaw_max_bound        : [ 0.3  , 0.3  , 1.5]
+vel_xy_yaw_min_bound        : [-0.3 , -0.3 , -1.5]
+vel_xy_yaw_max_pronk        : [ 0.19  , 0.4  , 1.5]
+vel_xy_yaw_min_pronk        : [-0.22 , -0.4 , -1.5]
+vel_xy_yaw_max_walk         : [ 0.2  , 0.1  , 1.0]
+vel_xy_yaw_min_walk         : [-0.2 , -0.1 , -1.0]
+vel_xy_yaw_max_passive_trot : [ 1.2  , 0.4  , 0.8]
+vel_xy_yaw_min_passive_trot : [-1.2 , -0.4 , -0.8]
+vel_xy_yaw_max_trot_8_3     : [ 1.6  , 0.6  , 2.5] # [ 2.0  , 0.65  , 2.5]
+vel_xy_yaw_min_trot_8_3     : [-1.4 , -0.6 , -2.5] # [-1.4 , -0.65 , -2.5]
+vel_xy_yaw_max_trot_10_4    : [ 1.6  , 0.55  , 2.5] # [ 1.3  , 0.50  , 2.5] # [ 1.6  , 0.55  , 2.5]
+vel_xy_yaw_min_trot_10_4    : [-1.2 , -0.55 , -2.5] # [-1.2 , -0.50 , -2.5] # [-1.2 , -0.55 , -2.5]
+vel_xy_yaw_max_trot_10_5    : [ 1.4,  0.50 ,  2.5] # [ 1.5,  0.60 ,  2.5] 
+vel_xy_yaw_min_trot_10_5    : [-1.2 ,-0.50 , -2.5] # [-1.2 ,-0.60 , -2.5] 
+vel_xy_yaw_max_trot_12_6    : [ 0.8  , 0.40   , 2.50] # [ 1.20  , 0.55   , 2.50]
+vel_xy_yaw_min_trot_12_6    : [-0.8 , -0.40  , -2.50] # [-1.05 , -0.55  , -2.50]
+vel_xy_yaw_max_trot_14_8    : [ 0.55  , 0.32   , 2.30] # [ 0.88  , 0.50   , 2.30]
+vel_xy_yaw_min_trot_14_8    : [-0.55 , -0.32  , -2.30] # [-0.88 , -0.50  , -2.30]
+vel_xy_yaw_max_trot_16_10   : [ 0.4  , 0.26   , 2.10] # [ 0.75  , 0.45   , 2.10]
+vel_xy_yaw_min_trot_16_10   : [-0.4 , -0.26  , -2.10] # [-0.75 , -0.45  , -2.10]
+vel_xy_yaw_max_trot_18_11   : [ 0.35  , 0.21  ,  1.90] # [ 0.68  , 0.40  ,  1.90]
+vel_xy_yaw_min_trot_18_11   : [-0.35 , -0.21 ,  -1.90] # [-0.68 , -0.40 ,  -1.90]
+vel_xy_yaw_max_trot_20_12   : [ 0.30  , 0.19   , 1.70] # [ 0.60  , 0.35   , 1.70] 
+vel_xy_yaw_min_trot_20_12   : [-0.30 , -0.19  , -1.70] # [-0.60 , -0.35  , -1.70] 
+vel_xy_yaw_max_trot_22_14   : [ 0.25  , 0.17   , 1.50] # [ 0.53  , 0.30   , 1.50] 
+vel_xy_yaw_min_trot_22_14   : [-0.25 , -0.17  , -1.50] # [-0.53 , -0.30  , -1.50] 
+vel_xy_yaw_max_trot_24_16   : [ 0.20  , 0.15   , 1.30] # [ 0.45  , 0.25   , 1.30] 
+vel_xy_yaw_min_trot_24_16   : [-0.20 , -0.15  , -1.30] # [-0.45 , -0.25  , -1.30]
+vel_xy_yaw_max_motion_default : [ 1.5 ,  0.3 ,  1.0]
+vel_xy_yaw_min_motion_default : [-1.5 , -0.3 , -1.0]
+vel_xy_yaw_max_stair          : [ 2.0  , 1.0  , 2.5]
+vel_xy_yaw_min_stair          : [-2.0 , -1.0 , -2.5]
+vel_xy_yaw_max_vision         : [0.5  , 0.3  , 1.0]
+vel_xy_yaw_min_vision         : [-0.5 , -0.3 , -1.0]
+vel_xy_yaw_max_pronk_rl       : [ 1.6 ,  1.0 ,  3.0]
+vel_xy_yaw_min_pronk_rl       : [-1.2 , -1.0 , -3.0]
+vel_xy_yaw_max_rapid_rl       : [0 , 0 ,  7.0]
+vel_xy_yaw_min_rapid_rl       : [0 , 0 , -8.0]
+
+vel_xy_yaw_zero_bound : [-0.00, 0.0, 0.0]
+vel_xy_yaw_zero_pronk : [-0.01, 0.0, 0.0]
+
+acc_xy_yaw_max        : [1.0  , 1.    ,  2.0]
+acc_xy_yaw_min        : [-2.0 , -1.   , -2.0]
+acc_xy_yaw_max_bound  : [1.7  , 3.0   ,  3.0]
+acc_xy_yaw_min_bound  : [-2.0 , -3.0  , -3.0]
+acc_xy_yaw_max_pronk_rl : [ 1.5 ,  1.5 ,  2.5]
+acc_xy_yaw_min_pronk_rl : [-1.5 , -1.5 , -2.5]
+acc_xy_yaw_max_rapid_rl : [0 , 0 ,  3.0]
+acc_xy_yaw_min_rapid_rl : [0 , 0 , -3.0]
+acc_xy_yaw_max_follow : [1.0  , 1.    ,  2.0]
+acc_xy_yaw_min_follow : [-5.0 , -1.   , -2.0]
+vel_xy_yaw_scale      : [1.0  , 1.0   ,  1.0]
+
+step_height_max     : 0.06
+
+x_offset_pronk      : -0.0 # -0.05
+x_offset_bound      : [0.05, 0.05, 0.02, 0.02]
+x_offset_default    : [0.0, 0.0, 0.0, 0.0]
+x_offset_trot_10_4  : [-0.02, -0.02, -0.02, -0.02] # [0.0, 0.0, 0.0, 0.0]
+y_offset_trot_10_4  : [0.025, -0.035, 0.025, -0.035] # [0.03, -0.03, 0.03, -0.03]
+y_offset_trot       : [0.04, -0.04, 0.04, -0.04]
+x_offset_pronk_rl   : -0.15
+y_offset_pronk_rl   : 0.05
+yaw_offset_pronk_rl : 0.25
+x_offset_rapid_rl   : -0.15
+y_offset_rapid_rl   : 0
+yaw_offset_rapid_rl : 0.15
+
+walk_offset_x       : [0.0, 0.0, 0.0, 0.0]
+walk_offset_y       : [0.05, -0.05, 0.05, -0.05]
+
+diagonal_landing_offset : [0.03, 0.02] # FL
+diagonal_yaw_rate       : [0.0, -0.0]  #[0.6, -0.6]
+
+trot_swing_middle_pos     : [0.0, 0.05, 0.05] # x y z
+trot_in_out_landing_offset: [0.05, 0.06] # FL
+trot_pitch_landing_offset : [-0.05, 0.10] # FL middle offset
+trot_pitch_up_down        : [0.15, -0.15]
+
+moonwalk_step_height      : [0.05, 0.015]
+moonwalk_landing_offset   : [0.065, 0.00] # range middle
+
+front_lift_landing_offset         : [-0.01, 0.03, -0.02, 0.03] # x middle, x offset, y middle, y offset
+front_lift_height_pitch           : [0.01, -0.05]
+front_lift_switch_landing_offset  : [0.0, -0.05]
+front_lift_switch_middle_pos : [0.0, 0.05, 0.06]
+
+rear_lift_landing_offset         : [0.01, 0.03, -0.02, 0.03]
+rear_lift_height_pitch           : [0.01, 0.05]
+rear_lift_switch_landing_offset  : [0.0, -0.05]
+rear_lift_switch_middle_pos : [0.0, 0.05, 0.06]
+
+ballet_step_height        : 0.010
+ballet_landing_offset     : [-0.06, -0.10] # FL
+ballet_height             : 0.04
+ballet_trans_step_height  : 0.02
+
+pitch_step_landing_offset : [0.06, 0.0] # FL
+pitch_step_pitch          : [0.12, -0.12] # Down up
+pitch_step_height         : [-0.00,  0.00] # Down up
+
+walk_wave_landing_offset  : [0.0,-0.05] # x y for FL
+walk_wave_pitch           : [0.15, -0.15]
+walk_wave_height          : [0.02, -0.0, 0.0] # middle up down
+
+pace_stride_vel_cmd           : [0.0, 0.0, 0.0] # x y z
+pace_stride_landing_offset_y  : [0.02, -0.02, 0.02, -0.02]
+
+special_pronk_height  : 0.025
+special_pronk_size    : 0.025
+
+special_trot_landing_offset : [0.03, 0.03, 0.0]
+
+upstairs_height_cmd    : 0.24
+downstairs_height_cmd  : 0.2
+rc_delta_step_height   : 0.075
+downstairs_depth       : -0.075
+
+use_energy_saving_mode  : 1
+motor_sdk_position_mutation_limit : 1
+
+skateboard_height: 0.085
+skateboard_velocity: [ 1.0, 1.0 ]
+skateboard_body_pos_balance: [0.0, 0.0, 0.18]
+skateboard_body_pos_skate: [0.06, 0.020, 0.125]
+skateboard_body_pos_swing_in_skate: [0.0, 0.02, 0.0]
+skateboard_thrust_force: [18.0, 0.0, 10.0]
+skateboard_thrust_force_first: [18.0, 0.0, 10.0]
+skateboard_foot_swing_final_offset: [0.0, 0.15, 0.018]

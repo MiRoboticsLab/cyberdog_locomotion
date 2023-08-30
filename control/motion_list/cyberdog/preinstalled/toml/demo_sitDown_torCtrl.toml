@@ -1,0 +1,157 @@
+# torque ctrl(based on WBC): sit down and swing legs, for real robots
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, -0.0]
+duration     = 100
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.4, 0.0, -0.05, 0.0, -0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 250
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.0, 0.2, -0.0, 0.0, -0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 100
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [-0.0, -0.0, -0.4, -0.0, 0.0, -0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 200
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, -0.0, 0.2, -0.0, 0.0, -0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 100
+
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [-0.1, 0.0, 0.0, -0.05, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 300
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.15, 0.0, 0.26]
+duration     = 200
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 100
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.05, 0.0, 0.08]
+duration     = 100
+
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.05, 0.0, -0.08]
+duration     = 100
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.05, 0.0, 0.08]
+duration     = 100
+
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.05, 0.0, -0.08]
+duration     = 100
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 100
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.15, 0.0, -0.26]
+duration     = 200
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [-1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.0, 0.0, -0.0]
+duration     = 50
+
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.1, 0.4, 0.0, 0.1, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 300
+
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 50
+
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 3
+duration     = 720
+
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 500

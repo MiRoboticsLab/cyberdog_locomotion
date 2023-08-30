@@ -1,0 +1,57 @@
+# Ballet
+
+# Stand
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+300
+
+# Beginning of ballet #
+# Stand
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+200
+
+# Transition trotting
+locomotion
+0, 0, 0
+0
+69
+600
+
+# Ballet
+locomotion
+0, 0, 0.0
+0
+68
+4000
+
+# Transition trotting
+locomotion
+0, 0, 0
+0
+69
+600
+
+locomotion
+0, 0, 0
+0
+9
+600
+
+# Stand
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0.0000
+0, 0, 0
+500
+# End of ballet #
+
+torctrlposture
+1, 1, 1, 1
+0, 0, 0, 0, 0, 0
+0, 0, 0
+60000

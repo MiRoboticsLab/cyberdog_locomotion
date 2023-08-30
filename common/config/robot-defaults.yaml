@@ -1,0 +1,40 @@
+__collection-name__: robot-parameters
+
+control_mode       : 0
+gait_id            : 9
+controller_dt      : 0.002
+
+foot_height_sensor_noise      :  0.001
+foot_process_noise_position   :  0.002
+foot_sensor_noise_position    :  0.001
+foot_sensor_noise_velocity    :  0.05
+imu_process_noise_position    :  0.02
+imu_process_noise_velocity    :  0.02
+
+cheater_mode  : 0
+use_rc        : 1
+
+imu_bias_estimation : 0
+imu_adaptive_gain   : 1
+gain_acc            : 0.001
+
+speed_offset_trot_10_4: [0.0, 0.0, 0.0]
+speed_offset_trot_follow: [0.0, 0.0, 0.0]
+speed_offset_trot_medium: [0.0, 0.0, 0.0]
+speed_offset_trot_slow: [0.0, 0.0, 0.0]
+speed_offset_trot_fast: [0.0, 0.0, 0.0]
+speed_offset_trot_24_16 : [0,0,0]
+speed_offset_trot_8_3 : [0,0,0]
+speed_offset_ballet : [0,0,0]
+speed_offset_pronk : [0,0,0]
+speed_offset_bound : [0,0,0]
+se_ori_cali_gain   : [0.0, 0.0, 0.0] #[0.0, 0.05, 0.03] # roll pitch vx+ ptich vx-
+se_ori_cali_offset : [0.0, 0.0, 0.0]  #[0.05, 0.03, 0.0] # roll pitch
+
+filter_type         : 0
+
+# TODO: use BT to cover it
+delt_roll           : 0.0
+delt_pitch          : 0.0
+complementaryfilter_source : 1
+lcm_debug_switch    : 0

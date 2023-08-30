@@ -1,0 +1,73 @@
+# Amble
+
+# Beginning of Amble #
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, -0.0, 0.0]
+omni         = 0
+gait_id      = 9
+duration     = 600
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, -0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 500
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.030]
+landing_pos_des = [0.02, 0.035, 0.0,  0.02, -0.035, 0.0,  0.02, 0.035, 0.0,  0.02, -0.035, 0.0]
+step_height     = [0.05, 0.05, 0.05, 0.05]
+weight          = [1000, 1000, 200.0, 1000.0, 1000.0, 200.0]
+use_mpc_traj    = 1
+mu              = 0.30
+landing_gain    = 3.0
+gait_id         = 91
+duration        = 1000
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.1, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.030]
+landing_pos_des = [0.02, 0.035, 0.0,  0.02, -0.035, 0.0,  0.02, 0.035, 0.0,  0.02, -0.035, 0.0]
+step_height     = [0.05, 0.05, 0.05, 0.05]
+weight          = [1000, 1000, 200.0, 1000.0, 1000.0, 200.0]
+use_mpc_traj    = 1
+mu              = 0.30
+landing_gain    = 3.0
+gait_id         = 91
+duration        = 5000
+
+[[step]]
+type            = "usergait"
+body_vel_des    = [0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.030]
+landing_pos_des = [0.02, 0.035, 0.0,  0.02, -0.035, 0.0,  0.02, 0.035, 0.0,  0.02, -0.035, 0.0]
+step_height     = [0.05, 0.05, 0.05, 0.05]
+weight          = [1000, 1000, 200.0, 1000.0, 1000.0, 200.0]
+use_mpc_traj    = 1
+mu              = 0.30
+landing_gain    = 3.0
+gait_id         = 91
+duration        = 1000
+
+# End of Amble #
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 1000
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000

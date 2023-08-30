@@ -1,0 +1,96 @@
+# Pitch gain Factory calibrate
+
+
+[[step]]
+type         = "transition"
+height       = 0.24
+duration     = 1000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [1.6, 0.0, 0.0]
+omni         = 0
+gait_id      = 5
+duration     = 2000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 5
+duration     = 1000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-1.2, 0.0, 0.0]
+omni         = 0
+gait_id      = 5
+duration     = 3000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, -3.0]
+omni         = 0
+gait_id      = 5
+duration     = 1500
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-1.2, 0.0, 2.5]
+omni         = 0
+gait_id      = 5
+duration     = 2000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-1.2, 0.0, -2.5]
+omni         = 0
+gait_id      = 5
+duration     = 2000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [1.6, 0.0, 0.0]
+omni         = 0
+gait_id      = 5
+duration     = 2000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 2.5]
+omni         = 0
+gait_id      = 5
+duration     = 1000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-1.2, 0.0, 0.0]
+omni         = 0
+gait_id      = 5
+duration     = 1000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, -2.5]
+omni         = 0
+gait_id      = 5
+duration     = 2000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-1.2, 0.0, 0.0]
+omni         = 0
+gait_id      = 5
+duration     = 1000
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 5
+duration     = 1000
+
+[[step]]
+type         = "transition"
+height       = 0.24
+duration     = 1000

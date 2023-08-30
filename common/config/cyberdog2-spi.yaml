@@ -1,0 +1,14 @@
+__collection-name__: spi-parameters
+
+abad_side_sign   : [-1., -1., 1., 1.]
+hip_side_sign    : [-1., 1., -1., 1.]
+knee_side_sign   : [-1., 1., -1., 1.]
+
+abad_offset   : [0.68, -0.68, -0.68, 0.68]
+hip_offset    : [-2.7925, 2.7925, -3.1416, 3.1416]
+
+knee_offset   : [2.58, -2.58, 2.58, -2.58]
+
+hip_range        : [-6.28, 0.1, -0.1, 6.28, -6.28, 0.1, -0.1, 6.28]
+hip_range_offset : [0.0, 0.0, 0.0, 0.0]
+

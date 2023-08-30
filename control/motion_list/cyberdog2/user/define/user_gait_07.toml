@@ -1,0 +1,78 @@
+# Pronk
+
+# 1
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# 2
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# 3
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# 4
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# 5
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# 7
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# 8
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# 9
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6
+
+[[section]]
+contact  = [0, 0, 0, 0]
+duration = 4
+
+# End
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 6

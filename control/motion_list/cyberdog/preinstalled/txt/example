@@ -1,0 +1,76 @@
+#	option1:
+#		locomotion
+#		xdot,ydot,yawdot
+#		omni
+#		gait
+#		duration
+#
+#	option2:
+#		pose
+#		contact state
+#		pose_body_cmd
+#		pose_foot_cmd
+#		pose_ctrl_point
+#		duration
+#	option3:
+#		jump
+#		jump_foot_support
+#		jump_x_acc_cmd
+#		jump_w_acc_cmd	
+#		duration
+#	option4:
+#		transition
+#		height
+#		duration
+# only be used to swingleg of three-legs support 
+#	option5:
+#		swingleg
+#		contact state
+#		pose_body_cmd
+#		pose_foot_cmd
+#		pose_ctrl_point
+#		duration
+# torque controller : WBC , display posture
+#	option6:
+#		torctrlposture
+#		contact state
+#		pose_body_cmd
+#		pose_foot_cmd
+#		duration
+
+
+
+
+pose
+1,1,1,1
+0,0.2,0,0,0,-0.1
+0,0,0
+0.2,0,0
+1000
+
+pose
+1,1,1,1
+0,0,0,0.05,0,0
+0,0,0
+0,0,0
+1000
+
+transition
+0.35
+1000
+
+locomotion
+0,0,0
+0
+9
+500
+
+jump
+1,1,1,1
+0,0,20
+0,0,0
+1000
+
+
+
+

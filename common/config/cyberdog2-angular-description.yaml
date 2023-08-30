@@ -1,0 +1,51 @@
+__collection-name__: model-parameters
+body_com  :  [0.0273, -0.000242, 0.0143]
+body_mass  :  4.03
+body_inertia  :  [0.0185, -0.000173, -0.0102, -0.000173, 0.0517, -2.83e-05, -0.0102, -2.83e-05, 0.0483]
+
+body_length  :  0.164
+body_width  :  0.042
+abad_torque_max  :  12.0001
+abad_lower_bound  :  -0.5585
+abad_upper_bound  :  0.5585
+abad_com  :  [-0.00392, -0.015, -0.000306]
+
+abad_mass  :  0.354
+abad_inertia  :  [0.00019, 2.7e-05, -3.44e-07, 2.7e-05, 0.000276, -1.95e-06, -3.44e-07, -1.95e-06, 0.000233]
+abad_rotor_location  :  0.0642303
+rotor_mass  :  0.0567
+rotor_inertia_z  :  [2.53e-05, 0, 0, 0, 2.53e-05, 0, 0, 0, 4.78e-05]
+abad_link_length  :  0.094
+
+hip_torque_max  :  12.0001
+front_hip_lower_bound  :  -2.792526803190927
+front_hip_upper_bound  :  1.3264502315156903
+hip_com  :  [0.00212, -0.0212, -0.0184]
+
+hip_mass  :  0.482
+hip_inertia  :  [0.00101, -2.23e-05, 3.85e-05, -2.23e-05, 0.000983, 0.000199, 3.85e-05, 0.000199, 0.000347]
+hip_rotor_location  :  0.07577
+knee_rotor_location  :  0.0342303
+hip_link_length  :  0.12
+
+knee_torque_max  :  12.0001
+knee_lower_bound  :  0.5235987755982988
+knee_upper_bound  :  2.5307274153917776
+knee_com  :  [-0.0006, 4.72e-05, -0.0893]
+
+knee_mass  :  0.116
+knee_inertia  :  [0.000668, 3e-09, -2.37e-05, 3e-09, 0.000674, -6.03e-07, -2.37e-05, -6.03e-07, 1.54e-05]
+knee_link_length  :  0.17390999999999998
+
+foot_radius  :  0.019
+
+abad_gear_ratio : 7.75
+hip_gear_ratio : 7.75
+knee_gear_ratio : 7.75
+
+hip_cover_location : 0.025
+knee_rubber : 0.02
+rear_hip_lower_bound  :  -3.141592653589793
+rear_hip_upper_bound  :  0.9773843811168246
+nose_location : [0.294, 0.03, 0.120]
+ear_location : [0.225, 0.04, 0.2]

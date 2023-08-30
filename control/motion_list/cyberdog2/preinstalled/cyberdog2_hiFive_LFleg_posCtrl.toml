@@ -1,0 +1,122 @@
+# position ctrl: sit down and swing RF leg
+
+[[step]]
+type         = "transition"
+height       = 0.225
+duration     = 200
+
+###### sit down
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.45, 0.0, -0.05, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 600
+
+###### hold on a moment
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, -0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+###### sit down
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.05, 0.0, 0.0, -0.055, -0.04, 0.0]
+foot_pose    = [0.0, 0.0, 0.03]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 500
+
+###### up foot
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.25, 0.0, 0.2]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 1000
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, -0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 100
+
+###### shake foot
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.1, -0.0, 0.1]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 300
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.15, -0.00, -0.15]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 450
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.15, 0.0, 0.15]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 600
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.1, -0.0, -0.1]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 300
+
+###### passive shake foot
+[[step]]
+type         = "swingleg"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, -0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 2000
+
+###### recovery stand
+[[step]]
+type         = "pose"
+foot_support = [1.0, -1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [-0.145, 0.04, -0.22]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 500
+
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [-0.05, -0.45, 0.0, 0.105, 0.04, 0.0]
+foot_pose    = [-0.0, -0.0, -0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 600
+
+
+[[step]]
+type         = "transition"
+height       = 0.25
+duration     = 200
+
+[[step]]
+type         = "transition"
+height       = 0.25
+duration     = 50

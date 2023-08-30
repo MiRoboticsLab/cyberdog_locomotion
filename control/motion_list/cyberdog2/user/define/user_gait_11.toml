@@ -1,0 +1,406 @@
+# Amble
+
+# 1
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 2
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 3
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 4
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 5
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 6
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 7
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 8
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 9
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 10
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 11
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# 12
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 1, 0]
+duration = 2
+
+[[section]]
+contact  = [1, 0, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 0, 0, 1]
+duration = 2
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 3
+
+[[section]]
+contact  = [0, 1, 0, 1]
+duration = 2
+
+# end
+[[section]]
+contact  = [0, 1, 1, 1]
+duration = 3
+
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 3

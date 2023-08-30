@@ -1,0 +1,83 @@
+# Ballet
+
+# Beginning of Ballet #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 500
+
+# Transition
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.02]
+landing_pos_des = [0.03, 0.05, 0.0,  -0.03, -0.05, 0.0,  0.03, 0.05, 0.0,  -0.03, -0.05, 0.0]
+step_height     = [0.03, 0.03, 0.03, 0.03]
+weight          = [50.0, 50.0, 5.0, 10.0, 10.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 80
+duration        = 600
+
+# Ballet
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0, -0.0, 0.3]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.04]
+landing_pos_des = [0.06, 0.10, 0.0,  -0.06, -0.10, 0.0,  0.06, 0.10, 0.0,  -0.06, -0.10, 0.0]
+step_height     = [0.008, 0.008, 0.008, 0.008]
+weight          = [50.0, 50.0, 5.0, 10.0, 10.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 80
+duration        = 6000
+
+# Transition
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.02]
+landing_pos_des = [0.03, 0.05, 0.0,  -0.03, -0.05, 0.0,  0.03, 0.05, 0.0,  -0.03, -0.05, 0.0]
+step_height     = [0.03, 0.03, 0.03, 0.03]
+weight          = [50.0, 50.0, 5.0, 10.0, 10.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 80
+duration        = 300
+
+# Transition
+[[step]]
+type            = "usergait"
+body_vel_des    = [-0.0, 0.0, 0.0]
+body_pos_des    = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+landing_pos_des = [0.00, -0.00, 0.0,  -0.00, 0.00, 0.0,  0.00, -0.00, 0.0,  -0.00, 0.00, 0.0]
+step_height     = [0.03, 0.03, 0.03, 0.03]
+weight          = [50.0, 50.0, 5.0, 10.0, 10.0, 10.0]
+use_mpc_traj    = 0
+mu              = 0.40
+landing_gain    = 1.0 
+gait_id         = 80
+duration        = 300
+
+# End of Ballet #
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 1000
+
+# RecoveryStand
+
+[[step]]
+type         = "recoverystand"
+duration     = 1000

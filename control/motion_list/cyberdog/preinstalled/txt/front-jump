@@ -1,0 +1,27 @@
+#	option3:
+#		jump
+#		jump_foot_support
+#		jump_x_acc_cmd
+#		jump_w_acc_cmd
+#		duration
+
+transition
+0.2
+1000
+
+transition
+0.10
+200
+
+jump
+1,1,1,1
+10,0,25
+0,0,0
+1000
+
+transition
+0.2
+1000
+
+
+

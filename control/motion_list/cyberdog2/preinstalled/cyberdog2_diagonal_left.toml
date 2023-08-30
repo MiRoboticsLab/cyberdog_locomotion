@@ -1,0 +1,38 @@
+# Diagonal left
+
+# Beginning of diagonal left #
+
+[[step]]
+type         = "torctrlposture"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, -0.005, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+duration     = 1000
+
+# Diagonal left
+
+[[step]]
+type         = "locomotion"
+vel_des      = [-0.00, 0.00, 0.0]
+omni         = 0
+gait_id      = 52
+duration     = 2880
+
+# End of diagonal left #
+
+# Stand
+
+[[step]]
+type         = "locomotion"
+vel_des      = [0.0, 0.0, 0.0]
+omni         = 0
+gait_id      = 31
+duration     = 500
+
+[[step]]
+type         = "pose"
+foot_support = [1.0, 1.0, 1.0, 1.0]
+body_cmd     = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+foot_pose    = [0.0, 0.0, 0.0]
+ctrl_point   = [0.0, 0.0, 0.0]
+duration     = 500

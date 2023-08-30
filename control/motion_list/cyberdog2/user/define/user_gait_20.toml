@@ -1,0 +1,21 @@
+# Rear lift
+
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 10
+
+[[section]]
+contact  = [1, 1, 0, 1]
+duration = 5
+
+[[section]]
+contact  = [1, 1, 0, 0]
+duration = 5
+
+[[section]]
+contact  = [1, 1, 1, 0]
+duration = 5
+
+[[section]]
+contact  = [1, 1, 1, 1]
+duration = 5

@@ -1,0 +1,10 @@
+struct robot_control_response_lcmt {
+    int8_t  mode;
+    int8_t  gait_id;
+    int8_t  contact;
+    int8_t  order_process_bar;  // order process, 1 == 1 %
+    int8_t  switch_status;      //0:NORMAL, 1:TRANSITIONING, 2:ESTOP, 3:EDAMP, 4:BAN_TRANS
+    int8_t  ori_error;
+    int16_t  footpos_error;
+    int32_t  motor_error[12];
+}

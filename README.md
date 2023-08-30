@@ -130,7 +130,7 @@ $ make -j4
 ```
 编译成功后, 将电脑连接至机器人的网口(Cyberdog2)或者Download USB口(Cyberdog)，然后可将生成的文件发送给机器人：
 ```
-$ cd ~/cyberdog_locomotion/scripts
+$ cd your_own_path/cyberdog_locomotion/scripts
 $ sudo ./scp_to_cyberdog.sh
 ```
 文件发送成功后，运控程序会即刻生效运行。

@@ -68,6 +68,7 @@ $ wget https://cdn.cnbj2m.fds.api.mi-img.com/os-temp/loco/loco_arm64_20220118.ta
 $ docker load --input loco_arm64_20220118.tar
 $ docker images
 ```
+or you can make the docker image accordting to the attached [DockerFile](./docker/Dockerfile). For more details, please refer to the [instruction document](./docker/dockerfile_instructions_en.md).
 
 ### Simulation
 Compile on the external PC, and the compiled product is only for simulation usage, **CAN NOT** be deployed on the real robot. First, download the code:

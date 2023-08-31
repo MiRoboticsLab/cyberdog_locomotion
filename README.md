@@ -73,6 +73,7 @@ $ wget https://cdn.cnbj2m.fds.api.mi-img.com/os-temp/loco/loco_arm64_20220118.ta
 $ docker load --input loco_arm64_20220118.tar
 $ docker images
 ```
+或者用[DockerFile](./docker/Dockerfile)制作镜像，具体细节请查看[说明文档](./docker/dockerfile_instructions_cn.md)。
 
 ### 仿真部署
 在外部PC本地编译，仅限用于本地调试开发，其生成的可执行文件一般**不能**直接发送到机器人上运行。首先下载本代码仓：

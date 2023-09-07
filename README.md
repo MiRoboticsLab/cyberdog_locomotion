@@ -119,6 +119,7 @@ $ cd /work/build_farm/workspace/cyberdog/
 $ mkdir onboard-build
 $ cd onboard-build
 ```
+**注意**：your_own_path/cyberdog_locomotion需要使用绝对路径。
 - 如要编译Cyberdog:
 ```
 $ cmake -DCMAKE_TOOLCHAIN_FILE=/usr/xcc/aarch64-openwrt-linux-gnu/Toolchain.cmake -DONBOARD_BUILD=ON -DBUILD_FACTORY=ON -DBUILD_CYBERDOG2=OFF ..

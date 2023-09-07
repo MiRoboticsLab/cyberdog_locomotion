@@ -114,6 +114,7 @@ $ cd /work/build_farm/workspace/cyberdog/
 $ mkdir onboard-build
 $ cd onboard-build
 ```
+**Note**: your_own_path/cyberdog_locomotion needs to be an absolute path.
 - For Cyberdog:
 ```
 $ cmake -DCMAKE_TOOLCHAIN_FILE=/usr/xcc/aarch64-openwrt-linux-gnu/Toolchain.cmake -DONBOARD_BUILD=ON -DBUILD_FACTORY=ON -DBUILD_CYBERDOG2=OFF ..
